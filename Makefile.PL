@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
     'Object::Enum' => '0.072',
     'overload' => '0'
   },
-  'VERSION' => '0.010011',
+  'VERSION' => '0.010012',
   'test' => {
     'TESTS' => 't/*.t'
   }

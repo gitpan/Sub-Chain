@@ -1,6 +1,6 @@
 package Sub::Chain::Named;
 BEGIN {
-  $Sub::Chain::Named::VERSION = '0.010011';
+  $Sub::Chain::Named::VERSION = '0.010012';
 }
 BEGIN {
   $Sub::Chain::Named::AUTHORITY = 'cpan:RWSTAUNER';
@@ -60,7 +60,7 @@ Sub::Chain::Named - subclass of Sub::Chain with named subs
 
 =head1 VERSION
 
-version 0.010011
+version 0.010012
 
 =head1 SYNOPSIS
 

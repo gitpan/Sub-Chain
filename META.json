@@ -53,11 +53,11 @@
    "provides" : {
       "Sub::Chain" : {
          "file" : "lib/Sub/Chain.pm",
-         "version" : "0.010011"
+         "version" : "0.010012"
       },
       "Sub::Chain::Named" : {
          "file" : "lib/Sub/Chain/Named.pm",
-         "version" : "0.010011"
+         "version" : "0.010012"
       }
    },
    "release_status" : "stable",
@@ -73,7 +73,7 @@
          "web" : "http://github.com/magnificent-tears/Sub-Chain/tree"
       }
    },
-   "version" : "0.010011",
+   "version" : "0.010012",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

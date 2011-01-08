@@ -1,6 +1,6 @@
 package Sub::Chain;
 BEGIN {
-  $Sub::Chain::VERSION = '0.010011';
+  $Sub::Chain::VERSION = '0.010012';
 }
 BEGIN {
   $Sub::Chain::AUTHORITY = 'cpan:RWSTAUNER';
@@ -143,15 +143,15 @@ Sub::Chain - Chain subs together and call in succession
 
 =head1 VERSION
 
-version 0.010011
+version 0.010012
 
 =head1 SYNOPSIS
 
 	my $chain = Sub::Chain->new();
 
-	$chain->push(\&wash, ['cold']);
-	$chain->push(\&dry,  [{tumble => 'low'}]);
-	$chain->push(\&fold);
+	$chain->append(\&wash, ['cold']);
+	$chain->append(\&dry,  [{tumble => 'low'}]);
+	$chain->append(\&fold);
 
 	my @clean_laundry = $chain->call(@clothes);
 

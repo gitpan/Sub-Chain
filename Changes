@@ -1,8 +1,10 @@
 Revision History for Sub-Chain
 ==============================
 
-0.010011
+0.010012
 --------
+
+0270107 fix pod - non-existent push method substituted for existing append method
 
 25bb5e7 Trade 'simple' for 'easy'
 
